@@ -1,0 +1,16 @@
+BEGIN
+    DISPLAY "Enter General Average:"
+    INPUT generalAverage
+
+    IF generalAverage <= 74 THEN
+        DISPLAY "Beginning"
+    ELSE IF generalAverage >= 75 AND generalAverage <= 79 THEN
+        DISPLAY "Developing"
+    ELSE IF generalAverage >= 80 AND generalAverage <= 84 THEN
+        DISPLAY "Approaching Proficiency"
+    ELSE IF generalAverage >= 85 AND generalAverage <= 89 THEN
+        DISPLAY "Proficient"
+    ELSE IF generalAverage >= 90 THEN
+        DISPLAY "Advance"
+    ENDIF
+END
