@@ -13,7 +13,7 @@ public class DataTypesRhymeWithDate {
         char section = 'A';
         boolean isCodingFun = true;
         String name = "Abram";
-        LocalDate today = LocalDate.now(); //
+        LocalDate today = LocalDate.now(); 
 
         System.out.println("My name is " + name + ", shining bright,\n" +
             "At " + age + " years old, I code day and night.\n" +
