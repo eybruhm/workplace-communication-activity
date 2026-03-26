@@ -1,8 +1,8 @@
 import java.time.LocalDate; 
 import java.time.LocalTime; 
 
-public class DataTypesRhymeWithDate { //
-    public static void main(String[] args) { //
+public class DataTypesRhymeWithDate { 
+    public static void main(String[] args) { 
 
         byte age = 20;
         short year = 2026;
